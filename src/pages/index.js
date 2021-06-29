@@ -12,7 +12,7 @@ const AboutPage = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title="About me" />
       <div style={{ marginTop: `30px`, fontFamily: `Montserrat` }}>
         <p>I am Nikhil Sharma, a full stack developer by passion and profession. I like to design and build websites which touches masses.</p>
         <p>In personal time I like to build small useful apps/tools. </p>

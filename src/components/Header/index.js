@@ -8,9 +8,9 @@ class Header extends React.Component {
     const { location } = this.props
 
     const aboutLinkStyle = {
-      paddingBottom: location.pathname === "/about" ? `5px` : `0px`,
+      paddingBottom: location.pathname === "/" ? `5px` : `0px`,
       boxShadow:
-        location.pathname === "/about" ? `0px 1px 0px 0px black` : `none`,
+        location.pathname === "/" ? `0px 1px 0px 0px black` : `none`,
     }
     const projectLinkStyle = {
       paddingBottom: location.pathname === "/project" ? `5px` : `0px`,
@@ -26,7 +26,7 @@ class Header extends React.Component {
     return (
       <div className="header-main">
         <Link className="logo-link" to={`/`}>
-          <img src={logo} alt="22 Boxes logo" className="logo-img" />
+          <img src={logo} alt="Website To Track Nikhil's Work" className="logo-img" />
         </Link>
 
         <div className="header-nav">

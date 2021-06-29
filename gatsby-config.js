@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `22Boxes Template Uno`,
+    title: `Website To Track Nikhil's Work`,
     author: {
-      name: `Gagandeep Singh`,
-      summary: `22boxes.com`,
+      name: `Nikhil Sharma`,
+      summary: `Website`,
     },
-    description: `22Boxes Gatsby template Uno`,
-    siteUrl: `https://22boxesgatsbyuno.netlify.com/`,
+    description: `Website To Track Nikhil's Work`,
+    siteUrl: `https://fireact.netlify.app/`,
     social: {
       twitter: `twentytwoboxes`,
     },
@@ -73,7 +73,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/uno-favicon.png`,
+        icon: `content/assets/logo.svg`,
       },
     },
     `gatsby-plugin-react-helmet`,
