@@ -18,6 +18,7 @@ const AboutPage = ({ data, location }) => {
         <p>In personal time I like to build small useful apps/tools. </p>
         <p>In past, I have completed training with {" "}<a href="http://www.nxtlifetechnologies.com/" className="no-underline"> NextLife Technologies</a> and i worked at {" "} 
           <a href="http://pim.school/" className="no-underline">Pim Softech Pvt Ltd.</a></p>
+           <p>Contact &nbsp;:  &nbsp;<a href="tel:+91-9414338445">9414338445</a></p>       
           <div className="about-connect"> 
            <a href="mailto:ns1043937@gmail.com" className="img-link">
              <img src={Email} className="about-img" alt=""></img>
